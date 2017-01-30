@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Open Tribute
+subtitle: Find The truth behind All
 description:
-author: John Doe
-language:
+author: Karel Malbroukou
+language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+  url: http://blog.open-tribute.org
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
