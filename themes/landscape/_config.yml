@@ -1,6 +1,7 @@
 # Header
 menu:
   Home: /
+  My CV: /Resume
   Archives: /archives
 rss: /atom.xml
 
