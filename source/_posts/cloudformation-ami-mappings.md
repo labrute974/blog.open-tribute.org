@@ -15,7 +15,7 @@ Plus, the AMI name is unique!
 
 So let me tell you my evolution on finding the AMIs for each region.
 
-## 1. Find a cloudformation template the uses Cloudformation Mappings for Amazon Linux AMI
+## 1. Find a cloudformation template that uses Cloudformation Mappings for Amazon Linux AMI
 
 That's years ago! Don't judge me :D
 
