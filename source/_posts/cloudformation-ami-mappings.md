@@ -49,7 +49,7 @@ I would go in the AWS console, find the AMI I want, and filter in the AMI consol
 Then I decided.. let's automate this to some level, so I wrote a script that would loop through each region and get the image id based on the AMI name.
 Here I would first go in the Console, same as before, and get the AMI name.
 
-*Disclaimer: For the sake of arguments, I didn't include all the regions here, but there's an easier way later anyway!*
+*Disclaimer: For arguments sake, I didn't include all the regions here, but there's an easier way later anyway!*
 
 After that, I would run the following script:
 
