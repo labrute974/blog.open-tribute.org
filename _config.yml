@@ -8,7 +8,7 @@ subtitle: Find The truth behind All
 description:
 author: Karel Malbroukou
 language: en
-timezone:
+timezone: Australia/Melbourne
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -64,6 +64,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape
+google_analytics: UA-97707749-1
+twitter: labrute974
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
