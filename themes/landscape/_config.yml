@@ -29,9 +29,9 @@ archive_type: 'monthly'
 show_count: false
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-97707749-1
 favicon: /favicon.png
-twitter:
+twitter: labrute974
 google_plus:
 fb_admins:
 fb_app_id:
