@@ -14,11 +14,14 @@ I believe in collaboration - cross-functional teams - continuous improvement - w
 
     Skills
 
+![](/images/aws_dev_assoc.png)
+
 Professional experience as a Linux Operations engineer for 10+ years
+Extensive experience with Amazon Web Services
 In-depth knowledge and implementation of CI / CD
 In-depth knowledge and implementation of Cloud infrastructure and deployment automation techniques
 Good knowledge on website performance and application delivery lifecycle
-Good knowledge in application development
+Good knowledge in application development (frontend and backend)
 
     Languages
 
@@ -166,7 +169,3 @@ Network . Linux . Programming . Databases . VoIP . .Net ...
 
 2002 to 2004 : BTS - Computer Science and Networks for Industrial and Technical services
 C/C++ . ASM . Network basics . Algorithms . UML ...
-
-    Certifications
-
-Linux Certifications: LPI 101, MCU, MCA
