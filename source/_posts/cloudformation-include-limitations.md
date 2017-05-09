@@ -15,12 +15,12 @@ If you follow the link for the first one, you will understand what the issue.
 
 For the second one, please follow my lead!
 
-Let's say example, you would like to separate the resources in your template logically into snippets.
+Let's say, you would like to separate the resources in your template logically into snippets.
 
 For example, you might want to create an S3 bucket and a CloudFront distribution on top of the S3 bucket to be able to use custom SSL, or maybe just for actual caching capabilities.
 
 
-Doing this in one template is probably the way to go, as they would be tightly attached, but your template might grow very quickly, as you might have an S3 bucket resource, the SSL certificate resource, the CloudFront resource and possibly the S3 bucket policy as well..
+Doing this in one stack is probably the way to go, as they would be tightly attached, but your template might grow very quickly, as you might have an S3 bucket resource, the SSL certificate resource, the CloudFront resource and possibly the S3 bucket policy as well..
 
 Your first thought might be to separate the **S3 bucket + policy** into one snippet, and the **CloudFront + SSL certificate** into another snippet!
 Great idea! That's what I would do.. except, you can't do it!
