@@ -1,6 +1,6 @@
 layout: posts
 title: 307 Redirect when accessing S3 through Cloudfront?
-date: 2017-05-30 08:20:13
+date: 2017-05-30 22:03:13
 tags: [ redirect, error, s3, aws, cloudfront ]
 ---
 
@@ -17,9 +17,8 @@ But let's wind back a bit and look at the scenario:
 
 That's because of the distributed nature of S3.
 
-```
-If a request arrives at the wrong Amazon S3 location, Amazon S3 responds with a temporary redirect that tells the requester to resend the request to a new endpoint.
-```
+    If a request arrives at the wrong Amazon S3 location, Amazon S3 responds with a temporary redirect
+    that tells the requester to resend the request to a new endpoint.
 
 You can read more about it [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/Redirects.html).
 Basically the fix is ... to wait for it!
