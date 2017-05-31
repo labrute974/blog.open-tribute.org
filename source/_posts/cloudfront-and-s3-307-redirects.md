@@ -5,11 +5,9 @@ tags: [ redirect, error, s3, aws, cloudfront ]
 ---
 
 So you're trying to configure Cloudfront on top of an S3 bucket where you host your static website?
-
 And you're getting [307](https://httpstatuses.com/307) redirecting to the S3 bucket DNS when accessing the DNS you configured in Cloudfront?
 
 laBrute is coming to your rescue ... well... you might not like the answer.
-
 But let's wind back a bit and look at the scenario:
 
   1. You created an S3 bucket called: `origin-mysite` in the Sydney region, which would have the URL *origin-mysite.s3-ap-southeast-2.amazonaws.com*
@@ -24,7 +22,6 @@ If a request arrives at the wrong Amazon S3 location, Amazon S3 responds with a 
 ```
 
 You can read more about it [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/Redirects.html).
-
 Basically the fix is ... to wait for it!
 
 Note that if you were using the `us-east-1` region, you should not hit this specific problem.
