@@ -6,7 +6,7 @@ tags: [ aws, cli, s3, content-type ]
 
 So you've uploaded a file to S3 and want to change its content-type manually?
 
-A good example would be that you have a static website that uses an API as the backend, and you're storing a json file containing informations about your app like the version etc. called `info` that you upload together with the sync-ing of the frontend code, using `aws s3 sync` command.
+A good example would be that you have a static website where you're storing a json file containing informations about your app like the version etc. called `info` that you upload together with the sync-ing of the frontend code, using `aws s3 sync` command.
 
 When you do that, S3 doesn't automatically know the Content-Type of the file `info` so it won't set it to `application/json`.. so if you were to check that file by accessing its URL, instead of just displaying the content in the browser, it will get downloaded.
 
